@@ -1,0 +1,31 @@
+.control-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.control-bar .slider {
+  width: 150px;
+}
+.control-bar .value {
+  margin-bottom: 10px;
+}
+.control-bar .section {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  height: 60px;
+}
+.control-bar .slider-container {
+  flex-direction: column;
+  padding-top: 0;
+}
+.control-bar .p-dropdown {
+  width: 150px;
+}
+
+@media only screen and (max-width: 700px) {
+  .control-bar {
+    flex-direction: column;
+  }
+}
